@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart PDF Form Generator</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="container">
+  <h1>Smart PDF Form Generator</h1>
+
+  <form id="pdfForm">
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+
+    <label class="checkbox">
+      <input type="checkbox" name="agree" /> I agree to terms
+    </label>
+
+    <h3>Signature</h3>
+    <canvas id="signature-pad"></canvas>
+
+    <div class="actions">
+      <button type="button" onclick="clearSignature()">Clear</button>
+      <button type="submit">Generate PDF</button>
+    </div>
+  </form>
+
+  <div id="result"></div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
