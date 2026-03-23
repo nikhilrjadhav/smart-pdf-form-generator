@@ -30,6 +30,10 @@ A lightweight web application that allows users to fill out a form, add a signat
 4. Download new PDF instantly
 
 ---
+## 📸 Demo Link
+
+Link: https://saralmilan.com/smart-pdf-generator/
+---
 
 ## 💡 Use Cases
 
@@ -51,5 +55,5 @@ A lightweight web application that allows users to fill out a form, add a signat
 
 ## 👨‍💻 Author
 
-Nikhil Jadhav  
+Nikhil R. Jadhav  
 Angular + PHP Developer | 10+ Years Experience  
